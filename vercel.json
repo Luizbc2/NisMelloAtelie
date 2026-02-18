@@ -6,24 +6,12 @@
   },
   "routes": [
     {
-      "src": "/styles.css",
-      "dest": "/styles.css"
-    },
-    {
-      "src": "/script.js",
-      "dest": "/script.js"
-    },
-    {
-      "src": "/imagens/(.*)",
-      "dest": "/imagens/$1"
-    },
-    {
-      "src": "/images/(.*)",
-      "dest": "/images/$1"
+      "src": "/(styles\\.css|script\\.js|imagens/.*|images/.*)",
+      "dest": "/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "/index.php?page=$1"
+      "dest": "/index.php"
     }
   ]
 }
