@@ -23,7 +23,7 @@
   ],
   "routes": [
     {
-      "src": "/(.*\\.(css|js|png|jpg|jpeg|svg|ico))$",
+      "src": "/(.*\\.(css|js|png|jpg|jpeg|svg|ico|gif|webp|mp4|webm))$",
       "dest": "/$1"
     },
     {
