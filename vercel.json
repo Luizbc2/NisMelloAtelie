@@ -7,11 +7,10 @@
   ],
   "routes": [
     {
-      "src": "/(styles\\.css|script\\.js|imagens/.*|images/.*)",
-      "dest": "/$1"
+      "handle": "filesystem"
     },
     {
-      "src": "/",
+      "src": "/$",
       "dest": "/index.php?page=home"
     },
     {
