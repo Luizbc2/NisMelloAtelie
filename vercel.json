@@ -2,7 +2,7 @@
   "builds": [
     {
       "src": "index.php",
-      "use": "vercel-php@0.6.0"
+      "use": "vercel-php@0.7.2"
     }
   ],
   "routes": [
@@ -11,8 +11,12 @@
       "dest": "/$1"
     },
     {
+      "src": "/",
+      "dest": "/index.php?page=home"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/index.php"
+      "dest": "/index.php?page=$1"
     }
   ]
 }
