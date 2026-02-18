@@ -1,13 +1,25 @@
 {
   "functions": {
-    "*.php": {
-      "runtime": "vercel-php@0.7.2"
+    "index.php": {
+      "runtime": "vercel-php@0.6.0"
     }
   },
   "routes": [
     {
-      "src": "/(.*\\.(css|js|png|jpg|jpeg|svg|ico|json))$",
-      "dest": "/$1"
+      "src": "/styles.css",
+      "dest": "/styles.css"
+    },
+    {
+      "src": "/script.js",
+      "dest": "/script.js"
+    },
+    {
+      "src": "/imagens/(.*)",
+      "dest": "/imagens/$1"
+    },
+    {
+      "src": "/images/(.*)",
+      "dest": "/images/$1"
     },
     {
       "src": "/(.*)",
