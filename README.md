@@ -1,7 +1,6 @@
 # Nis Mello Ateliê
 
 [![Site](https://img.shields.io/badge/Link-Projeto-7dffb7?style=for-the-badge&logo=vercel&logoColor=0b1510&labelColor=0b1510)](https://nismelloatelie.vercel.app/)
-[![Repositorio](https://img.shields.io/badge/Reposit%C3%B3rio-GitHub-7dffb7?style=for-the-badge&logo=github&logoColor=0b1510&labelColor=0b1510)](https://github.com/Luizbc2/NisMelloAtelie)
 
 Site institucional desenvolvido para apresentar a marca Nis Mello Ateliê, destacar os produtos e facilitar o contato com clientes de forma simples e elegante.
 
